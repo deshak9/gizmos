@@ -1,0 +1,90 @@
+
+.social-button-gray-container {
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.social-button-gray-container ul li {
+  float: right;
+  width: 17px;
+  margin-left: 14px;
+  padding-left: 5px;
+  padding-right: 10px;
+  display: block;
+  border: 0;
+  //border-right: 1px solid #ccc;
+  background-size: contain;
+  vertical-align: middle;
+  cursor: pointer;
+}
+
+.social-button-gray-container ul li:first-child {
+  border-right: 0;
+}
+
+.social-button-gray-container img {
+  width: 15px;
+}
+
+$socialIconHeight: 18px;
+
+.social-button-gray-fb {
+  background: url(/images/social/fb-64-gray.gif) top left no-repeat;
+  height: $socialIconHeight;
+}
+
+.social-button-gray-fb:hover {
+  background: url(/images/social/fb-64.gif) top left no-repeat;
+  background-size: contain;
+}
+
+.social-button-gray-tw {
+  background: url(/images/social/tw-64-gray.gif) top left no-repeat;
+  height: $socialIconHeight;
+}
+
+.social-button-gray-tw:hover {
+  background: url(/images/social/tw-64.gif) top left no-repeat;
+  background-size: contain;
+}
+
+.social-button-gray-gp {
+  background: url(/images/social/gp-64-gray.gif) top left no-repeat;
+  height: $socialIconHeight;
+}
+
+.social-button-gray-gp:hover {
+  background: url(/images/social/gp-64.gif) top left no-repeat;
+  background-size: contain;
+}
+
+.social-button-gray-ig {
+  background: url(/images/social/ig-64-gray.gif) top left no-repeat;
+  height: $socialIconHeight;
+}
+
+.social-button-gray-ig:hover {
+  background: url(/images/social/ig-64.gif) top left no-repeat;
+  background-size: contain;
+}
+
+.social-button-gray-pr {
+  background: url(/images/social/pr-64-gray.gif) top left no-repeat;
+  height: $socialIconHeight;
+}
+
+.social-button-gray-pr:hover {
+  background: url(/images/social/pr-64.gif) top left no-repeat;
+  background-size: contain;
+}
+
+.social-button-gray-wa {
+  background: url(/images/social/wa-64-gray.gif) top left no-repeat;
+  height: $socialIconHeight;
+}
+
+.social-button-gray-wa:hover {
+  background: url(/images/social/wa-64.gif) top left no-repeat;
+  background-size: contain;
+}

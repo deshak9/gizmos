@@ -1,0 +1,14 @@
+<IfModule mod_rewrite.c>
+  RewriteEngine on
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteCond %{REQUEST_URI} !=/favicon.ico
+  RewriteRule ^ index.php [L]
+</IfModule>
+
+Options -Indexes
+
+RewriteCond %{HTTP_HOST} ^gadgetclues.com$
+RewriteRule (.*) http://www.gadgetclues.com/$1 [R=301,L]
+
+ErrorDocument 404 /

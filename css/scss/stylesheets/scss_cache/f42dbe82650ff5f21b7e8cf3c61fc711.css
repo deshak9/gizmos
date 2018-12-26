@@ -1,0 +1,334 @@
+/* compiled by scssphp v0.6.7 on Sun, 26 Mar 2017 08:21:55 +0200 (0.0392s) */
+
+@media only screen and (max-device-width: 6in) {
+  .page-width, .header-content {
+    width: 98%;
+    margin-left: auto;
+    margin-right: auto; }
+
+  .full-width, .header-container {
+    width: 100%; }
+
+  .hide-in-mobile {
+    display: none; }
+
+  .left-data-container {
+    width: 100%; }
+
+  .right-data-container {
+    display: none; } }
+
+@media only screen and (min-device-width: 6in) {
+  .page-width, .header-content {
+    width: 1050px;
+    margin-left: auto;
+    margin-right: auto; }
+
+  .full-width, .header-container {
+    width: 100%; }
+
+  .hide-in-desktop {
+    display: none; }
+
+  .left-data-container {
+    width: 77%;
+    margin-left: -10px; }
+
+  .right-data-container {
+    width: 23%; } }
+
+.left-data-container {
+  margin-top: 25px;
+  float: left; }
+
+.right-data-container {
+  margin-top: 15px;
+  float: left; }
+
+.box-shadow-bottom, .header-container {
+  box-shadow: 0 0 2px #aaa; }
+
+.box-shadow-all, .gadget-category-container {
+  box-shadow: 0 0 1.5px #aaa; }
+
+.clear-both-side {
+  clear: both; }
+
+.left-aligned {
+  float: left; }
+
+.right-aligned {
+  float: right; }
+
+.hide-me {
+  display: none; }
+
+::-webkit-scrollbar {
+  width: 8px;
+  /* for vertical scrollbars */
+  height: 8px;
+  /* for horizontal scrollbars */ }
+
+::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.1); }
+
+::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.5); }
+
+@media only screen and (max-device-width: 6in) {
+  .header-content {
+    padding-left: 15px; } }
+
+.header-container {
+  height: 70px;
+  background: #fff;
+  font-family: sans-serif; }
+
+.logo-container {
+  line-height: 70px;
+  width: 70px;
+  float: left; }
+
+.logo-container img {
+  height: 50px;
+  margin-top: -5px;
+  vertical-align: middle; }
+
+.menu-container {
+  line-height: 70px;
+  margin-left: 0px;
+  float: left;
+  font-family: Roboto, Arial, sans-serif; }
+
+.menu-container li {
+  margin-left: 30px;
+  float: left;
+  font-size: 13px;
+  cursor: pointer;
+  color: #221; }
+
+.search-box-container {
+  height: 70px;
+  line-height: 70px;
+  float: right; }
+
+.gadget-category-container {
+  display: none;
+  position: absolute;
+  background: #fff;
+  padding: 5px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px; }
+
+.gadget-category-container::before {
+  background-image: url(/images/upper_arrow.png);
+  background-position: 50% center;
+  background-repeat: no-repeat;
+  background-size: auto 15px;
+  top: -15px;
+  content: "";
+  display: block;
+  height: 15px;
+  left: 30px;
+  position: absolute;
+  width: 30px; }
+
+.gadget-category-specific {
+  margin-left: -13px; }
+
+.gadget-category-button:hover .gadget-category-container {
+  display: block; }
+
+.story-category-specific {
+  margin-left: -13px; }
+
+.story-category-button:hover .story-category-specific {
+  display: block; }
+
+.gadget-category-container li {
+  float: none;
+  margin-left: 0; }
+
+.gadget-category-container li a {
+  line-height: 20px;
+  display: block;
+  padding: 5px 15px;
+  text-transform: capitalize;
+  font-size: 13px;
+  color: #333;
+  font-family: Roboto, Arial, sans-serif;
+  letter-spacing: 0.6px; }
+
+.gadget-category-container li a:hover {
+  background: #fefefe;
+  color: #111;
+  text-decoration: underline; }
+
+.gadget-category-button:hover .gadget-category-container {
+  display: block; }
+
+@media only screen and (max-device-width: 6in) {
+  .page-width, .header-content {
+    width: 98%;
+    margin-left: auto;
+    margin-right: auto; }
+
+  .full-width, .header-container {
+    width: 100%; }
+
+  .hide-in-mobile {
+    display: none; }
+
+  .left-data-container {
+    width: 100%; }
+
+  .right-data-container {
+    display: none; } }
+
+@media only screen and (min-device-width: 6in) {
+  .page-width, .header-content {
+    width: 1050px;
+    margin-left: auto;
+    margin-right: auto; }
+
+  .full-width, .header-container {
+    width: 100%; }
+
+  .hide-in-desktop {
+    display: none; }
+
+  .left-data-container {
+    width: 77%;
+    margin-left: -10px; }
+
+  .right-data-container {
+    width: 23%; } }
+
+.left-data-container {
+  margin-top: 25px;
+  float: left; }
+
+.right-data-container {
+  margin-top: 15px;
+  float: left; }
+
+.box-shadow-bottom, .header-container {
+  box-shadow: 0 0 2px #aaa; }
+
+.box-shadow-all, .gadget-category-container {
+  box-shadow: 0 0 1.5px #aaa; }
+
+.clear-both-side {
+  clear: both; }
+
+.left-aligned {
+  float: left; }
+
+.right-aligned {
+  float: right; }
+
+.hide-me {
+  display: none; }
+
+::-webkit-scrollbar {
+  width: 8px;
+  /* for vertical scrollbars */
+  height: 8px;
+  /* for horizontal scrollbars */ }
+
+::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.1); }
+
+::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.5); }
+
+@media only screen and (max-device-width: 6in) {
+  .blog-container {
+    padding: 10px;
+    margin: 10px; } }
+
+@media only screen and (min-device-width: 6in) {
+  .blog-container {
+    padding: 20px;
+    margin: 10px 20px 10px 10px; } }
+
+.blog-container {
+  background: #fff;
+  box-shadow: 0 0 1px #ddd; }
+
+.blog {
+  color: #343434; }
+
+.blog h1 {
+  font-size: 33px;
+  color: #121212;
+  letter-spacing: 0.4px;
+  font-family: 'PT Sans', sans-serif; }
+
+.blog-author {
+  font-size: 11px;
+  color: #888;
+  letter-spacing: 0.6px; }
+
+.blog-share {
+  padding: 0 0 30px 0;
+  border-bottom: 1px solid #ddd;
+  min-height: 33px; }
+
+.blog-margin-top, .blog-content img, .blog-content h2, .blog-content p, .blog-content ul, .blog-product-availability h2 {
+  margin-top: 20px; }
+
+.blog-content img {
+  width: 100%; }
+
+.blog-content a {
+  color: #343434;
+  text-decoration: underline; }
+
+.blog-content h2 {
+  font-size: 20px;
+  letter-spacing: 0.6px;
+  color: #121212;
+  margin-top: 50px;
+  font-weight: bold; }
+
+.blog-content p {
+  font-size: 18px;
+  letter-spacing: 0.8px;
+  line-height: 28px;
+  font-family: Roboto, Arial, sans-serif; }
+
+.blog-content ul {
+  font-size: 18px;
+  letter-spacing: 0.8px;
+  line-height: 28px;
+  font-family: Roboto, Arial, sans-serif; }
+
+.blog-content ul li {
+  list-style: disc inside; }
+
+.blog-availability {
+  display: flex;
+  border: 1px solid #dedede; }
+
+.blog-availability div {
+  flex: 1;
+  text-align: center;
+  padding: 10px;
+  cursor: pointer; }
+
+.blog-availability img {
+  width: 50px;
+  border: 1px solid #fff;
+  padding: 20px; }
+
+.blog-availability img:hover {
+  border: 1px solid #ddd; }
+
+.blog-product-availability h2 {
+  font-size: 20px;
+  letter-spacing: 0.6px;
+  color: #121212;
+  margin-top: 50px;
+  font-weight: bold; }

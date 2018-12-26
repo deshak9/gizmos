@@ -1,0 +1,66 @@
+.upperContentRight {
+    margin-top: 3em;
+}
+
+.nameContainer {
+    width: 100%;
+}
+
+.nameContainer h1 {
+    font-size: 30px;
+}
+
+.descriptionContainer {
+    margin-top: 13px;
+}
+
+.descriptionContainer p {
+    font-size: 22px;
+    line-height: 45px;
+}
+
+.buyButtonContainer {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    z-index: 20;
+}
+
+.buyButtonContainer a {
+    display: block;
+    width: 100%;
+    padding: 1.2em;
+    font-size: 2.5em;
+    border-bottom: 2px solid #b8b8b8;
+    cursor: pointer;
+}
+
+.shareButtonContainer {
+    margin-top: 4em;
+    padding-top: 20px;
+}
+
+.shareButtonContainer p {
+    font-size: 20px;
+}
+
+.videoContainer {
+    margin-top: 5em;
+    margin-bottom: 4em;
+    width: 100%;
+    text-align: center;
+    font-size: 22px;
+}
+
+.videoContainer label{
+    text-align: left;
+    margin-bottom: 1em;
+}
+
+.videoFrame {
+    width: 100%;
+    height: 22em;
+}

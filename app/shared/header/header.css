@@ -1,0 +1,346 @@
+@media only screen and (max-device-width: 5in) {
+    .headerContainerSize {
+        height: 9em;
+        line-height: 9em;
+    }
+
+    .logoContainerSize {
+        font-size: 4em;
+    }
+
+    .loginContainer a {
+        display: none;
+    }
+
+    .loginContainer img {
+        display: inline-block;
+    }
+
+    .mobileMenuContent li {
+        font-size: 2.5em;
+    }
+
+    .headerMenuItems {
+        display: none;
+    }
+
+    .categoriesContainer {
+        border-radius: 5px;
+        position: absolute;
+        background: #fff;
+        padding: 12px 10px;
+        z-index: 2;
+        box-shadow: 1px 0 2px #333;
+
+        transition: 0s 180s;
+        -webkit-transition: 0s 180s;
+    }
+}
+
+@media only screen and (min-device-width: 5in) and (max-device-width: 13in) {
+    .headerContainerSize {
+        height: 7em;
+        line-height: 7em;
+    }
+
+    .logoContainerSize {
+        font-size: 30px;
+    }
+
+    .loginContainer img {
+        display: none;
+    }
+
+    .mobileMenuContainer {
+        display: none;
+    }
+
+    .loginContainer {
+        width: 150px;
+        text-align: right;
+    }
+
+    .loginContainer:hover {
+        -webkit-transition: background 700ms;
+        -moz-transition: background 700ms;
+        -ms-transition: background 700ms;
+        -o-transition: background 700ms;
+        transition: background 700ms;
+    }
+
+    .desktopLoginMenuContainer {
+        margin-left: -50px;
+    }
+
+    .loginContainer:hover .desktopLoginMenuContainer {
+        display: block;
+    }
+
+    .categoriesContainer::before {
+        background-image: url(/images/upper_arrow.png);
+        background-position: 50% center;
+        background-repeat: no-repeat;
+        background-size: auto 15px;
+        top: -15px;
+        content: "";
+        display: block;
+        height: 15px;
+        left: 32%;
+        margin-left: -15px;
+        position: absolute;
+        width: 30px;
+    }
+
+    .categoriesContainer {
+        border-radius: 5px;
+        display: none;
+        position: absolute;
+        background: #fff;
+        padding: 12px 10px;
+        z-index: 2;
+        box-shadow: 0 0 3px #333;
+        transition: 0s 180s;
+        -webkit-transition: 0s 180s;
+    }
+}
+
+@media only screen and (min-device-width: 13in) {
+    .headerContainerSize {
+        height: 80px;
+        line-height: 80px;
+    }
+
+    .logoContainerSize {
+        font-size: 30px;
+    }
+
+    .loginContainer img {
+        display: none;
+    }
+
+    .mobileMenuContainer {
+        display: none;
+    }
+
+    .loginContainer {
+        width: 150px;
+        text-align: right;
+    }
+
+    .loginContainer:hover {
+        -webkit-transition: background 700ms;
+        -moz-transition: background 700ms;
+        -ms-transition: background 700ms;
+        -o-transition: background 700ms;
+        transition: background 700ms;
+    }
+
+    .desktopLoginMenuContainer {
+        margin-left: -50px;
+    }
+
+    .loginContainer:hover .desktopLoginMenuContainer {
+        display: block;
+    }
+
+    .categoriesContainer::before {
+        background-image: url(/images/upper_arrow.png);
+        background-position: 50% center;
+        background-repeat: no-repeat;
+        background-size: auto 15px;
+        top: -15px;
+        content: "";
+        display: block;
+        height: 15px;
+        left: 32%;
+        margin-left: -15px;
+        position: absolute;
+        width: 30px;
+    }
+
+    .categoriesContainer {
+        border-radius: 5px;
+        display: none;
+        position: absolute;
+        background: #fff;
+        padding: 12px 10px;
+        z-index: 2;
+        box-shadow: 0 0 3px #333;
+        transition: 0s 180s;
+        -webkit-transition: 0s 180s;
+    }
+}
+
+.headerContainer {
+    width: 100%;
+    position: relative;
+    //background : #ff5858;
+}
+
+.logoContainer {
+    position: relative;
+    float: left;
+    font-family: 'Advent Pro', sans-serif;
+}
+
+.logoContainer a {
+    color: #fff;
+    cursor: pointer;
+}
+
+.loginContainer {
+    float: right;
+}
+
+.loginContainer a {
+/ / padding : 0 15 px;
+    cursor: pointer;
+    letter-spacing: 1px;
+    color: #fff;
+}
+
+.loginContainer img {
+    vertical-align: middle;
+    width: 7em;
+}
+
+.headerMenuItems {
+    float: left;
+    margin-left: 2rem;
+}
+
+.headerMenuItems a {
+    margin-left: 15px;
+    padding: 33px 0 33px 0;
+    cursor: pointer;
+    font-size: 13px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.mobileMenuContainer {
+    position: absolute;
+    background-color: #fff;
+    top: 9em;
+    left: 0;
+    right: 0;
+    width: 100%;
+    z-index: 3;
+    box-shadow: 1px 1px 1em #555;
+    -webkit-transition: height 800ms;
+    -moz-transition: height 800ms;
+    -ms-transition: height 800ms;
+    -o-transition: height 800ms;
+    transition: height 800ms;
+
+}
+
+.headerMenuItems a:hover {
+/ / border-bottom : 3 px solid #eee;
+}
+
+.mobileMenuContent li {
+    padding: 0 20px;
+/ / border-bottom : 2 px solid #ddd;
+}
+
+.mobileMenuContent li a {
+    padding: 0 20px;
+    border-bottom: 2px solid #ddd;
+    display: block;
+    color: #444;
+    border: 0;
+}
+
+.desktopLoginMenuContainer::before {
+    background-image: url(/images/upper_arrow.png);
+    background-position: 50% center;
+    background-repeat: no-repeat;
+    background-size: auto 15px;
+    top: -15px;
+    content: "";
+    display: block;
+    height: 15px;
+    left: 82%;
+    margin-left: -15px;
+    position: absolute;
+    width: 30px;
+}
+
+.desktopLoginMenuContainer {
+    position: absolute;
+    width: 200px;
+    background-color: #fff;
+    z-index: 4;
+    display: none;
+    box-shadow: 0 0 3px #321;
+    text-align: right;
+    border-radius: 4px;
+    padding: 10px 10px;
+    color: #99a;
+}
+
+.desktopLoginMenuContainer li {
+    padding: 0 10px;
+    cursor: pointer;
+    line-height: 35px;
+}
+
+.desktopLoginMenuContainer li:hover {
+    background: #dfefef;
+}
+
+.categoryButton:hover .categoriesContainer {
+    display: block;
+    transition: 0s;
+    -webkit-transition: 0s;
+}
+
+.categoryButton img {
+    width: 1em;
+}
+
+.categoriesContent {
+    position: relative;
+    text-align: left;
+}
+
+.categoriesContent::before {
+    margin-top: 5px;
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid red;
+}
+
+.categoriesContent li {
+    padding: 5px 10px;
+    height: auto;
+    line-height: 18px;
+    text-align: left;
+}
+
+.categoriesContent li:hover {
+    background: #dfefef;
+}
+
+.categoriesContent a {
+    color: #99a;
+    font-size: 14px;
+    text-align: left;
+    padding: 0;
+    margin-left: 0;
+    text-transform: capitalize;
+    font-family: "AvenirLTStd-Heavy", "Arial", sans-serif;
+    border: 0;
+}
+
+.categoriesContent a:hover {
+/ / font-weight : bold;
+    border: 0;
+}
+
+.mobileCategories {
+
+}

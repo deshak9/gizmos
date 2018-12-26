@@ -1,0 +1,12 @@
+<?php
+	if(isset($_SESSION['RW-UID']))
+		unset($_SESSION['RW-UID']);
+	if(isset($_SESSION['RW-username']))
+		unset($_SESSION['RW-username']);
+	if(isset($_SESSION['RW-acquiredcashback']))
+		unset($_SESSION['RW-acquiredcashback']);
+	if(isset($_SESSION['RW-paidcashback']))
+		unset($_SESSION['RW-paidcashback']);
+	if(isset($_SESSION["RW-reffby"]))
+		unset($_SESSION["RW-reffby"]);
+?>

@@ -1,0 +1,6 @@
+Change check list while deploying on production
+
+1.  Change to production environment DeploymentEnvironment.php
+2.  Change temporary unavailable in index.php
+2.  build ui with webpack -p
+2.  Do not upload product_img folder

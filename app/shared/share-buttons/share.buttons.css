@@ -1,0 +1,80 @@
+@media only screen and (max-device-width: 5in) {
+    .shareButtonContent {
+        margin-top: 2em;
+        width: 100%;
+    }
+
+    .shareButtonContent li a {
+        margin-top: 15px;
+        padding: 30px 15px;
+        width: 100%;
+        font-size: 15px;
+        display: block;
+        cursor: pointer;
+        border-radius: 9px;
+        color: #fff;
+    }
+
+}
+
+@media only screen and (min-device-width: 5in) {
+    .shareButtonContent {
+        margin-top: 10px;
+        width: 100%;
+    }
+
+    .shareButtonContent li a {
+        padding: 5px 25px;
+        display: block;
+        cursor: pointer;
+        border-radius: 4px;
+        color: #fff;
+        font-size: 12px;
+    }
+
+    .shareButtonContent li {
+        margin-left: 10px;
+        float: left;
+
+    }
+
+    .shareButtonContent li:first-child {
+        margin-left: 0;
+    }
+}
+
+.shareButtonContent img {
+    vertical-align: middle;
+}
+
+.facebookButton {
+    background: #3b5998;
+}
+
+.facebookButton:hover {
+    background: #3b6aa9;
+}
+
+.googlePlusButton {
+    background: #db4437;
+}
+
+.googlePlusButton:hover {
+    background: #db5548;
+}
+
+.twitterButton {
+    background: #1DA1F2;
+}
+
+.twitterButton:hover {
+    background: #1DB2F3;
+}
+
+.whatsappButton {
+    background: #01E675;
+}
+
+.whatsappButton {
+    background: #01E675;
+}

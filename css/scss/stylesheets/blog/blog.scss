@@ -1,0 +1,136 @@
+@import "../../common/color";
+@import "../../common/common";
+
+//font size
+$blogH1FontSize: 33px;
+$blogH2FontSize: 20px;
+$blogPFontSize: 18px;
+
+// text color
+$blogH1Color: #121212;
+$blogTextColor: #343434;
+
+//background
+$blogBackground: #fff;
+
+@media only screen and (max-device-width: $mobileWidth) {
+  .blog-container {
+    padding: 10px;
+    margin: 10px;
+  }
+}
+
+@media only screen and (min-device-width: $mobileWidth) {
+  .blog-container {
+    padding: 20px;
+    margin: 10px 20px 10px 10px;
+  }
+}
+
+.blog-container {
+  background: $blogBackground;
+  box-shadow: 0 0 1px #ddd;
+}
+
+.blog {
+  color: $blogTextColor;
+}
+
+.blog h1 {
+  font-size: $blogH1FontSize;
+  color: $blogH1Color;
+  letter-spacing: 0.4px;
+  font-family: $fontFamilyTileHeader;
+}
+
+.blog-author {
+
+  font-size: 11px;
+  color: #888;
+  letter-spacing: 0.6px;
+}
+
+.blog-share {
+  padding: 0 0 30px 0;
+  border-bottom: 1px solid #ddd;
+  min-height: 33px;
+}
+
+.blog-margin-top {
+  margin-top: 20px;
+}
+
+.blog-content img {
+  width: 100%;
+  @extend .blog-margin-top;
+}
+
+.blog-content a {
+  color: $blogTextColor;
+  text-decoration: underline;
+}
+
+.blog-content h2 {
+  font-size: $blogH2FontSize;
+  letter-spacing: 0.6px;
+  color: $blogH1Color;
+  margin-top: 50px;
+  @extend .blog-margin-top;
+  font-weight: bold;
+}
+
+.blog-content p {
+  font-size: $blogPFontSize;
+  letter-spacing: 0.8px;
+  line-height: 28px;
+  font-family: $fontFamilyTileDescription;
+  @extend .blog-margin-top;
+}
+
+.blog-content ul {
+  font-size: $blogPFontSize;
+  letter-spacing: 0.8px;
+  line-height: 28px;
+  font-family: $fontFamilyTileDescription;
+  @extend .blog-margin-top;
+}
+
+.blog-content ul li {
+  list-style: disc inside;
+}
+
+.blog-availability {
+  display: flex;
+  border: 1px solid #dedede;
+}
+
+.blog-availability div {
+  flex: 1;
+  text-align: center;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.blog-availability div:hover {
+
+}
+
+.blog-availability img {
+  width: 50px;
+  border: 1px solid #fff;
+  padding: 20px;
+}
+
+.blog-availability img:hover {
+
+  border: 1px solid #ddd;
+}
+
+.blog-product-availability h2 {
+  font-size: $blogH2FontSize;
+  letter-spacing: 0.6px;
+  color: $blogH1Color;
+  margin-top: 50px;
+  @extend .blog-margin-top;
+  font-weight: bold;
+}

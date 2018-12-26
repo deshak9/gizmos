@@ -1,0 +1,27 @@
+@media only screen and (max-device-width: 5in) {
+    .headingName {
+        font-size: 2.6em;
+    }
+}
+
+@media only screen and (min-device-width: 5in) and (max-device-width: 13in) {
+    .headingName {
+        font-size: 17px;
+    }
+}
+
+@media only screen and (min-device-width: 13in) {
+    .headingName {
+        font-size: 16px;
+    }
+}
+
+.headingName {
+    letter-spacing: 1px;
+}
+
+.loginSignupContainer {
+    position: relative;
+    display: table-row;
+
+}

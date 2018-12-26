@@ -1,0 +1,91 @@
+@import "../../../css/scss/common/common";
+@import "../../../css/scss/common/color";
+
+$gridPadding: 10px;
+
+@media only screen and (max-device-width: $mobileWidth) {
+  .gadget-tiles-grid li {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-device-width: $mobileWidth) and (max-device-width: $tabletWidth) {
+  .gadget-tiles-grid li {
+    width: 50%;
+  }
+}
+
+@media only screen and (min-device-width: $tabletWidth) {
+  .gadget-tiles-grid li {
+    width: 33.3%;
+  }
+  .gadget-tiles-grid ul:nth-child(1) {
+    padding-left: 0;
+  }
+
+}
+
+.gadget-tiles-component {
+  min-height: 500px;
+  width: 100%;
+}
+
+.gadget-tiles-component-heading {
+  width: 100%;
+  font-family: $fontFamilyTileHeader;
+  padding: $gridPadding;
+  font-size: $homePageHeadingFontSize;
+  text-transform: capitalize;
+}
+
+.gadget-tiles-component-heading h2 {
+
+}
+
+.gadget-tiles-component-button {
+  width: 100%;
+  font-family: $fontFamilyComponentHeader;
+  padding: $gridPadding;
+  box-sizing: border-box;
+}
+
+.gadget-tiles-component-button a {
+  display: block;
+  border: 1px solid #666;
+  float: right;
+  padding: 12px 28px;
+  border-radius: 2px;
+  color: #444;
+}
+.gadget-tiles-component-button a:hover {
+  background: #cedede;
+}
+
+.gadget-tiles-grid {
+  width: 100%;
+  margin-top: 15px;
+}
+
+.gadget-tiles-grid li {
+  display: block;
+  float: left;
+  padding: $gridPadding;
+  box-sizing: border-box;
+}
+
+.gadget-load-more-button {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.gadget-load-more-button a {
+  padding: 8px 12px;
+  border: 1px solid #aaa;
+  border-radius: 2px;
+  color: #444;
+  font-size: 12px;
+}
+
+.gadget-load-more-button a:hover {
+  background: #cedede;
+}

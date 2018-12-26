@@ -1,0 +1,132 @@
+@media only screen and (max-device-width: 5in) {
+    .modalContentSize {
+        left: 1%;
+        right: 1%;
+    }
+
+    .modalActualContainerSize {
+    }
+
+    .closeModalButton {
+        position: absolute;
+        top: -3em;
+        right: 0;
+        left: auto;
+        bottom: auto;
+    }
+
+    .closeModalButton a {
+        cursor: pointer;
+        font-size: 3em;
+        color: #fff;
+    }
+}
+
+@media only screen and (min-device-width: 5in) and (max-device-width: 13in) {
+    .modalContentSize {
+        left: 50%;
+        right: auto;
+    }
+
+    .modalActualContainerSize {
+        margin-left: -50%;
+    }
+
+    .closeModalButton {
+        position: absolute;
+        top: -20px;
+        right: -20px;
+        left: auto;
+        bottom: auto;
+    }
+
+    .closeModalButton a {
+        cursor: pointer;
+        font-size: 1.5em;
+        color: #fff;
+    }
+}
+
+@media only screen and (min-device-width: 13in) {
+    .modalContentSize {
+        left: 50%;
+        right: auto;
+    }
+
+    .modalActualContainerSize {
+        margin-left: -50%;
+    }
+
+    .closeModalButton {
+        position: absolute;
+        top: -15px;
+        right: -15px;
+        left: auto;
+        bottom: auto;
+    }
+
+    .closeModalButton a {
+        cursor: pointer;
+        font-size: 14px;
+        color: #fff;
+    }
+
+}
+
+.modalOverlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.75);
+    align-items: center;
+    justify-content: center;
+
+    -webkit-transition: background-color 600ms;
+    -moz-transition: background-color 600ms;
+    -ms-transition: display 600ms;
+    -o-transition: display 600ms;
+    transition: background-color 600ms;
+}
+
+.modalContent {
+    position: absolute;
+    top: 100px;
+    bottom: auto;
+    outline: none;
+    font-family: 'Maven Pro', sans-serif;
+    z-index: 25;
+}
+
+.modalActualContainer {
+    position: relative;
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 20px;
+    width: 100%;
+
+    -webkit-animation: mymove 200ms;
+/ / -webkit-animation-timing-function : linear;
+    animation: mymove 400ms;
+/ / animation-timing-function : linear;
+}
+
+@-webkit-keyframes mymove {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes mymove {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}

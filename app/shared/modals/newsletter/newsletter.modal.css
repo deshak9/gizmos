@@ -1,0 +1,159 @@
+@media only screen and (max-device-width: 5in) {
+    .newsletterContainer {
+        left: 0;
+        right: 0;
+        top: 10%;
+    }
+
+    .newsLetterLeftContainer {
+        width: 100%;
+        padding: 40px;
+        position: relative;
+    }
+
+    .newsLetterRightContainer {
+        width: 100%;
+        padding: 40px;
+        position: relative;
+    }
+
+    .mainHeading {
+        font-size: 45px;
+    }
+
+    .newsLetterLeftContainer p {
+        font-size: 20px;
+        line-height: 20px;
+        margin-top: 20px;
+        letter-spacing: 1px;
+    }
+
+    .newsLetterLeftContainer img {
+        margin-top: 20px;
+        width: 65px;
+    }
+
+    .newsLetterRightContainer a {
+        margin-top: 30px;
+        display: block;
+        cursor: pointer;
+        text-decoration: underline;
+        font-size: 30px;
+    }
+
+    .newsLetterRightContainer img {
+        margin-top: 20px;
+        width: 75px;
+    }
+
+    .newsLetterRightContainer input {
+        text-align: center;
+        margin-top: 20px;
+    }
+}
+
+@media only screen and (min-device-width: 5in) {
+    .newsletterContainer {
+        left: 50%;
+        top: 20%;
+    }
+
+    .newsletterContent{
+        position: relative;
+        margin-left: -50%;
+    }
+
+    .newsLetterLeftContainer {
+        width: 300px;
+        padding: 20px;
+        display: table-cell;
+    }
+
+    .newsLetterRightContainer {
+        width: 300px;
+        padding: 20px;
+        display: table-cell;
+    }
+
+    .mainHeading {
+        font-size: 20px;
+    }
+
+    .newsLetterLeftContainer p {
+        font-size: 13px;
+        line-height: 20px;
+        margin-top: 20px;
+        letter-spacing: 0.7px;
+    }
+
+    .newsLetterLeftContainer img {
+        margin-top: 20px;
+        width: 65px;
+    }
+
+    .newsLetterLeftContainer a {
+        margin-top: 20px;
+        display: block;
+        cursor: pointer;
+        text-decoration: underline;
+        font-size: 14px;
+    }
+
+    .newsLetterRightContainer img {
+        margin-top: 20px;
+        width: 75px;
+    }
+
+    .newsLetterRightContainer input {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+}
+
+.newsletterContainer {
+    position: fixed;
+    display: table-row;
+    text-align: center;
+    color: #444;
+}
+
+.modalOverlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.75);
+    align-items: center;
+    justify-content: center;
+    -webkit-transition: background-color 600ms;
+    -moz-transition: background-color 600ms;
+    -ms-transition: display 600ms;
+    -o-transition: display 600ms;
+    transition: background-color 600ms;
+}
+
+.newsLetterLeftContainer {
+    position: relative;
+    background: #ff5858;
+    text-align: center;
+    color: #f7f7f7;
+}
+
+.newsLetterRightContainer {
+    background: #f7f7f7;
+    text-align: center;
+    color: #b8b8b8;
+}
+
+.successFulSubscription {
+    padding: 20px;
+    text-align: center;
+    height: 300px;
+
+}
+
+*:focus {
+    outline: none;
+}

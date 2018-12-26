@@ -1,0 +1,96 @@
+@import "../../../css/scss/common/common";
+@import "../../../css/scss/common/color";
+
+.header-search-bar {
+  float: left;
+  line-height: $headerHeight;
+}
+
+.header-search-bar input {
+  padding: 14px 15px;
+  border: 1px solid #aaa;
+  color: #222;
+  width: 300px;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+  background-color: #f3f5f6;
+}
+
+.header-search-bar input:focus {
+  outline: none;
+}
+
+.header-search-bar a {
+  padding: 13px 30px 15px 30px;
+  background: $containerHeaderBackground;
+  line-height: 70px;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+
+}
+
+.header-search-bar img {
+  vertical-align: middle;
+}
+
+.header-login-button {
+  float: left;
+  color: $textHeaderColor;
+  margin-left: 10px;
+  line-height: $headerHeight;
+  /*margin-top: -2px;*/
+}
+
+.header-login-button a {
+  padding: 11px 25px 10px 25px;
+}
+
+.header-login-button {
+  height: $headerHeight;
+  line-height: $headerHeight;
+  margin-left: 70px;
+}
+
+.header-login-button a {
+  padding: 12px 25px;
+  border: 1px solid #222;
+  font-size: 12px;
+  background: $buttonBackground;
+}
+
+.header-login-button a:hover {
+  background: #eee;
+  background: $buttonHoverBackground;
+}
+
+.header-search-bar-result {
+  background: #fff;
+  box-shadow: 0 0 1px #aaa;
+  position: absolute;
+  width: 331px;
+  overflow: hidden;
+  margin-top: -11px;
+  margin-left: 1px;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+  padding: 10px 0;
+}
+
+.header-search-bar-result li {
+  line-height: 10px;
+}
+
+.header-search-bar-result li a {
+  display: block;
+  line-height: 14px;
+  background: #fff;
+  color: #333;
+  font-size: 13px;
+  overflow: hidden;
+  padding: 8px 10px 8px 15px;
+}
+
+.header-search-bar-result li a:hover {
+  color: #444;
+  text-decoration: underline;
+}

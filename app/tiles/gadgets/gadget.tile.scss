@@ -1,0 +1,49 @@
+@import "../../../css/scss/common/common";
+@import "../../../css/scss/common/color";
+
+.gadget-tile {
+  width: 100%;
+  @extend .box-shadow-all;
+}
+
+.gadget-tile-image {
+  width: 100%;
+  height: 200px;
+  background: url("/product_img/gadgets/trackR-bravo-1.jpg") no-repeat 50% 50%;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+
+.gadget-tile-description-data {
+  padding: 10px;
+  background: $tileBackground;
+}
+
+.gadget-tile-name {
+  font-size: 22px;
+  font-family: $fontFamilyTileHeader;
+  height: 1.4em; // that's one line, 2em for 2 lines, etc...
+  line-height: 1.3em; // the height of one text line
+  overflow: hidden;
+
+}
+
+.gadget-tile-name a {
+  color: $textHeaderColor;
+}
+
+.gadget-tile-description {
+  font-size: 14px;
+  margin-top: 5px;
+  height: 2.5em; // that's one line, 2em for 2 lines, etc...
+  line-height: 1.3em; // the height of one text line
+  color: $textColorGrey;
+  font-family: $fontFamilyTileDescription;
+  letter-spacing: 0.2px;
+  overflow: hidden;
+  margin-bottom: 5px;
+}
+
+.icon-whatsapp:before {
+  content: "\ea93";
+}

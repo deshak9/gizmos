@@ -1,0 +1,21 @@
+$primaryColor: #eeffcc;
+$border-color: #B2B;
+
+.underline {
+  border-bottom: 1px solid green
+}
+
+#header {
+  color: black;
+  border: 1px solid $border-color + #222222;
+
+  .navigation {
+
+  }
+  .logo {
+    width: 300px;
+    :hover {
+      text-decoration: none
+    }
+  }
+}

@@ -1,0 +1,89 @@
+@media only screen and (max-device-width: 5in) {
+
+    .sliderContainer {
+        margin-top: 3em;
+        overflow: hidden;
+        width: 100%;
+        height: 100%;
+    }
+
+    .leftMenuContainer {
+        width: 100%;
+        height: 5em;
+        padding: 0 10px 0 0;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .leftMenuContainer:first-child{
+        margin-left: 0;
+    }
+
+    .leftMenuImage {
+        float: left;
+        margin-top: 2em;
+        margin-left: 2em;
+        width: 8em;
+        height: 8em;
+        border: 1px solid #eee;
+        border-radius: 4px;
+        cursor: pointer;
+        box-shadow: 0 0 3px #999;
+    }
+
+    .leftMenuImage:first-child{
+        margin-left: 0;
+    }
+
+    .imageShown {
+        position: relative;
+        width: 100%;
+        height: 45em;
+        text-align: center;
+        background-size: cover;
+        background: no-repeat 100% 100%;
+        border-radius: 8px;
+        opacity: 1;
+    }
+}
+
+@media only screen and (min-device-width: 5in) {
+    .leftMenuContainer {
+        float: left;
+        width: 10%;
+        height: 100%;
+        padding: 0 10px 0 0;
+    }
+
+    .leftMenuImage {
+        margin-top: 10px;
+        height: 50px;
+        border: 1px solid #eee;
+        border-radius: 4px;
+        cursor: pointer;
+        box-shadow: 0 0 3px #999;
+    }
+
+    .imageShown {
+        float: left;
+        position: relative;
+        width: 90%;
+        height: 100%;
+        text-align: center;
+        background-size: cover;
+        background: no-repeat 100% 100%;
+        border-radius: 8px;
+        opacity: 1;
+    }
+
+    .sliderContainer {
+        overflow: hidden;
+        width: 100%;
+        height: 100%;
+    }
+}
+
+.leftMenuImage:hover {
+    border: 2px solid #eee;
+}

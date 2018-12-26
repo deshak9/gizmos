@@ -1,0 +1,16 @@
+.contentHeading {
+    width: 100%;
+}
+
+.contentHeading a{
+    padding: 15px;
+    background: #b8b8b8;
+    color: #333;
+    width: 100%;
+    display: block;
+    cursor: pointer;
+}
+
+a{
+    cursor: pointer;
+}

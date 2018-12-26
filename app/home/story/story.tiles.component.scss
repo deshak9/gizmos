@@ -1,0 +1,48 @@
+@import "../../../css/scss/common/common";
+@import "../../../css/scss/common/color";
+
+$gridPadding: 10px;
+@media only screen and (max-device-width: $mobileWidth) {
+
+}
+
+@media only screen and (min-device-width: $mobileWidth) and (max-device-width: $tabletWidth) {
+
+}
+
+@media only screen and (min-device-width: $tabletWidth) {
+
+}
+
+.story-tiles-component {
+  width: 100%;
+  box-sizing: border-box;
+  padding: $gridPadding;
+}
+
+.story-tiles-grid li {
+  margin-top: 10px;
+  border-bottom: 1px dashed #bbb;
+}
+
+.story-tiles-grid ul li:last-child {
+  border-bottom: 0;
+}
+
+.story-tiles-component-heading {
+  width: 100%;
+  font-family: $fontFamilyTileHeader;
+  padding: 5px 0;
+  font-size: $homePageHeadingFontSize;
+}
+
+.load-more-button {
+  width: 100%;
+  text-align: center;
+}
+
+.load-more-button a {
+  text-decoration: underline;
+  font-size: 18px;
+  padding: 15px 0;
+}

@@ -1,0 +1,78 @@
+@import "../../../css/scss/common/common";
+@import "../../../css/scss/common/color";
+
+@media only screen and (max-device-width: $mobileWidth) {
+  .story-tile-image {
+    width: 45%;
+  }
+  .story-tile-description-data {
+    width: 55%;
+  }
+}
+
+@media only screen and (min-device-width: $mobileWidth) {
+  .story-tile-image {
+    width: 25%;
+  }
+  .story-tile-description-data {
+    width: 75%;
+  }
+}
+
+$storyTileHeight: 160px;
+.story-tile {
+  width: 100%;
+  padding: 20px 0 30px 0;
+  height: 100%;
+  //background-color: $tileBackground;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  //border-bottom: 1px dashed #bbb;
+}
+
+.story-tile-image {
+  float: left;
+  height: $storyTileHeight;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+.story-tile-image img {
+  width: 100%;
+}
+
+.story-tile-description-data {
+  float: left;
+  padding-left: 20px;
+  box-sizing: border-box;
+  height: 100%;
+}
+
+.story-tile-name {
+  font-size: 22px;
+  font-family: $fontFamilyTileHeader;
+  letter-spacing: 0.6px;
+  height: 1.4em; // that's one line, 2em for 2 lines, etc...
+  line-height: 1.3em; // the height of one text line
+  overflow: hidden;
+}
+
+.story-tile-name a {
+  color: $textHeaderColor;
+}
+
+.story-tile-description {
+  font-size: 16px;
+  margin-top: 10px;
+  height: 5.5em; // that's one line, 2em for 2 lines, etc...
+  line-height: 1.4em; // the height of one text line
+  color: $textColorGrey;
+  font-family: $fontFamilyTileDescription;
+  letter-spacing: 0.6px;
+  overflow: hidden;
+}

@@ -1,0 +1,104 @@
+@media only screen and (max-device-width: 5in) {
+    .loginContainerSize {
+        width: 50%;
+    }
+
+    .orText {
+        width: 100%;
+        margin-top: 1em;
+        font-size: 2em;
+    }
+
+    .notYetRegistered {
+        font-size: 2em;
+        margin-top: 2em;
+        text-align: center;
+    }
+
+
+    .forgotPassword {
+        font-size: 2em;
+    }
+}
+
+@media only screen and (min-device-width: 5in) and (max-device-width: 13in) {
+    .loginContainerSize {
+        width: 350px;
+    }
+
+    .orText {
+        width: 100%;
+        margin-top: 20px;
+        margin-bottom: -5px;
+    }
+
+    .notYetRegistered {
+        font-size: 14px;
+        margin-top: 20px;
+        text-align: center;
+    }
+
+
+    .forgotPassword {
+        font-size: 15px;
+    }
+}
+
+@media only screen and (min-device-width: 13in) {
+    .loginContainerSize {
+        width: 350px;
+        padding: 20px;
+        margin-left: 10px;
+    }
+
+    .orText {
+        width: 100%;
+        margin-top: 20px;
+        margin-bottom: -5px;
+    }
+
+    .notYetRegistered {
+        font-size: 13px;
+        margin-top: 20px;
+        text-align: center;
+    }
+
+
+
+    .forgotPassword {
+        font-size: 13px;
+    }
+}
+
+.loginContainer {
+    padding: 20px;
+    display: table-cell;
+    text-align: left;
+}
+
+.loginContainer h1 {
+    //font-weight: bold;
+}
+
+.notYetRegistered {
+    width: 100%;
+    padding: 20px;
+    text-decoration: underline;
+}
+
+.notYetRegistered a {
+    cursor: pointer;
+    color: #222;
+    width: 100%;
+    padding: 30px;
+}
+
+.forgotPassword {
+    text-align: right;
+}
+
+.forgotPassword {
+    cursor: pointer;
+    text-decoration: underline;
+}
+

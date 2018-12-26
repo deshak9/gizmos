@@ -1,0 +1,124 @@
+$shadowColor: #aaa;
+$mobileWidth: 6in;
+$tabletWidth: 10in;
+$buttonBackground: #fff;
+$buttonHoverBackground: #eef;
+$menuColor: #333;
+$menuHoverColor: #111;
+
+$fontFamily1: Roboto, Arial, sans-serif;
+$fontFamilyHeader1: Roboto, Arial, sans-serif;
+$fontFamilyTileHeader: 'PT Sans', sans-serif;
+//'Oswald', sans-serif;
+$fontFamilyComponentHeader: Roboto, Arial, sans-serif;
+$fontFamilyTileDescription: Roboto, Arial, sans-serif;
+$fontFamilyGrey: sans-serif;
+$textHeaderColor: #221;
+$textColorGrey: #494949;
+
+//font size
+$homePageHeadingFontSize: 28px;
+
+//Width
+$homePageLeftContentWidth: 77%;
+
+// Height
+$headerHeight: 70px;
+
+//background
+$tileBackground: #fff;
+
+@media only screen and (max-device-width: $mobileWidth) {
+  .page-width {
+    width: 98%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .full-width {
+    width: 100%;
+  }
+
+  .hide-in-mobile {
+    display: none;
+  }
+
+  .left-data-container {
+    width: 100%;
+  }
+  .right-data-container {
+    display: none;
+  }
+}
+
+@media only screen and (min-device-width: $mobileWidth) {
+  .page-width {
+    width: 1050px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .full-width {
+    width: 100%;
+  }
+
+  .hide-in-desktop {
+    display: none;
+  }
+
+  .left-data-container {
+    width: 77%;
+    margin-left: -10px;
+  }
+  .right-data-container {
+    width: 23%;
+  }
+
+}
+
+.left-data-container {
+  margin-top: 25px;
+  float: left;
+}
+
+.right-data-container {
+  margin-top: 15px;
+  float: left;
+}
+
+.box-shadow-bottom {
+  box-shadow: 0 0 2px #aaa;
+}
+
+.box-shadow-all {
+  box-shadow: 0 0 1.5px #aaa;
+}
+
+.clear-both-side {
+  clear: both;
+}
+
+.left-aligned {
+  float: left;
+}
+
+.right-aligned {
+  float: right;
+}
+
+.hide-me {
+  display: none;
+}
+
+::-webkit-scrollbar {
+  width: 8px; /* for vertical scrollbars */
+  height: 8px; /* for horizontal scrollbars */
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.1);
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.5);
+}

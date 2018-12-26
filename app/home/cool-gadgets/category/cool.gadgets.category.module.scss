@@ -1,0 +1,27 @@
+@import "../../../../css/scss/common/common";
+@import "../../../../css/scss/common/color";
+
+@media only screen and (max-device-width: $mobileWidth) {
+
+}
+
+@media only screen and (min-device-width: $mobileWidth) {
+
+}
+
+.gadget-tile-container {
+  width: 300px;
+  margin-top: 30px;
+}
+
+.story-tiles-container {
+  width: 700px;
+  margin-top: 30px;
+}
+
+.side-story-tiles-container {
+  width: 260px;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+

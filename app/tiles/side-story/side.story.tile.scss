@@ -1,0 +1,44 @@
+@import "../../../css/scss/common/common";
+@import "../../../css/scss/common/color";
+
+$sideStoryTileHeight: 50px;
+$sideStoryNameColor: #3EA2E0;
+$sideStoryNameFontSize: 13px;
+
+.side-story-tile {
+  width: 100%;
+  height: $sideStoryTileHeight;
+  padding: 10px 0;
+  border-bottom: 1px dashed #ddd;
+  font-family: $fontFamilyTileDescription;
+  letter-spacing: 0.4px;
+}
+
+.side-story-tile:last-child {
+  border-bottom: 0;
+}
+
+.side-story-tile-image {
+  float: left;
+  width: 20%;
+  height: $sideStoryTileHeight;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+.side-story-tile-name {
+  float: left;
+  width: 80%;
+  padding-left: 10px;
+  box-sizing: border-box;
+  font-size: $sideStoryNameFontSize;
+
+}
+
+.side-story-tile-name a {
+  color: $textColorGrey;
+}

@@ -1,0 +1,28 @@
+@media only screen and (max-device-width: 5in) {
+    .buttonSize {
+        height: 3em;
+        margin-top: 1em;
+        font-size: 2.5em;
+        letter-spacing: 1px;
+    }
+}
+
+@media only screen and (min-device-width: 5in) and (max-device-width: 13in) {
+    .buttonSize {
+        height: 40px;
+        margin-top: 25px;
+        font-size: 14px;
+        letter-spacing: 1px;
+    }
+}
+
+@media only screen and (min-device-width: 13in) {
+    .buttonSize {
+        height: 40px;
+        width: 200px;
+        margin-top: 25px;
+        font-size: 13px;
+        letter-spacing: 1px;
+
+    }
+}

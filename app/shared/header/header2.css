@@ -1,0 +1,81 @@
+@media only screen and (max-device-width: 5in) {
+    .headerBackgroundContainer {
+        height: 50em;
+    }
+
+    .bgTextContainer {
+        width: 100%;
+        margin-top: 16%;
+        position: absolute;
+    }
+
+    .bgTextContainer h1 {
+        font-size: 60px;
+        font-family: 'Advent Pro', sans-serif;
+    }
+
+    .bgTextContainer h2 {
+        font-size: 30px;
+        margin-top: 15px;
+        letter-spacing: 2px;
+    }
+}
+
+@media only screen and (min-device-width: 5in) and (max-device-width: 13in) {
+    .headerBackgroundContainer {
+        height: 500px;
+    }
+
+    .bgTextContainer {
+        width: 100%;
+        margin-top: 15%;
+        position: absolute;
+    }
+
+    .bgTextContainer h1 {
+        font-size: 45px;
+        font-family: 'Advent Pro', sans-serif;
+    }
+
+    .bgTextContainer h2 {
+        font-size: 20px;
+        margin-top: 15px;
+        letter-spacing: 1px;
+    }
+}
+
+@media only screen and (min-device-width: 13in) {
+    .headerBackgroundContainer {
+        height: 600px;
+    }
+
+    .bgTextContainer {
+        width: 100%;
+        margin-top: 14%;
+        position: absolute;
+    }
+
+    .bgTextContainer h1 {
+        font-size: 45px;
+        font-family: 'Advent Pro', sans-serif;
+        letter-spacing: 4px;
+    }
+
+    .bgTextContainer h2 {
+        font-size: 20px;
+        letter-spacing: 1px;
+        margin-top: 15px;
+    }
+
+}
+
+.bgTextContainer {
+    text-align: center;
+    color: #fafafa;
+    text-shadow: 0 0 1px #aaa;
+    font-weight: 300;
+}
+
+.headerBackgroundContainer {
+    background: url("/images/bg3.jpg") 50% 50% no-repeat;
+}
